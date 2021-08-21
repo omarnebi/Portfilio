@@ -1,0 +1,13 @@
+.aniomar::before{
+content: 'web developer';
+ animation:  animate infinite 10s;
+}
+@keyframes animate{
+
+    60%{
+        content: 'mobile developer';
+    }
+   80%{
+        content: 'Freelance';
+    }
+}
